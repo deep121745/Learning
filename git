@@ -87,6 +87,16 @@ git checkout commitrefno. --filename
 Github => it's a website to publish our work publicly , through which anyone can give their views and can also contribute to our project. 
 
 
+Making connection between gitbash(local) and github(global):
+first setup remote:
+git remote add urlremotename url
+git remote
+
+Pushing online:   (Push-> adding online Fetch-> downloading )
+git push -u urlremotename master
+
+
+
 
 
 
