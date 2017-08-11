@@ -95,6 +95,10 @@ git remote
 Pushing online:   (Push-> adding online Fetch-> downloading )
 git push -u urlremotename master
 
+Branches:  Copy of a main repository(master)
+branches are use to review one's work and if it's considered to be good then it can be merged to our main branch
+
+
 
 
 
