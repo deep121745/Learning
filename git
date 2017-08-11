@@ -1,0 +1,92 @@
+Git is a program that lets us keep track of changes in our files.
+It is one of the best for managing source code(finding bug and then go back)
+git --version
+
+In git first we have to create an user name and email as when we are working in group it is necessary to recognise to consider everyone's contribution:
+  git config --global user.name  "__"                     (here global means individual user)
+  git config --global user.email "__"
+
+git config --list                  (list all our settings)
+to view only one setting:
+git config user.email
+
+git help commandname                           (gives manual for command)
+
+
+Repository is a technical term for project
+To specify our particular project to git(initialise our project), we have to navigate git :
+git init
+    (now our folder has become a git repository)
+ -->  after initialising we also have to add all the files it contains
+
+How git take track of all changes?
+There are hidden files in our project which helps through.  (ls -la)
+
+To tell git that we have made some changes in our folder (two way process):
+git add .           
+but in order to keep there track we have to commit it
+Commit means basically that we are taking snapshot our work at a particular time.
+                                   (commit==keeping track)
+git commit -m "message"
+
+how to view commit history:
+git log
+
+to view commits from specific author:
+git log --author="authorname"
+
+Making changes :
+git status         (status tells whether git is keeping track of our files or not)
+
+
+Git workflow:
+Working copy > Staging area > Repository
+working copy means files on our local computer 
+staging area refer files which are ready to commit
+repository means git is keeping track of our files 
+
+Editing files:
+git add filename
+
+Viewing changes that we have made:
+git diff 
+
+diff only shows difference between working copy and repository so to differentiate files between staging area and repository :
+git diff --staged
+
+How to delete files:
+git rm filename                  (removes both from working copy as well as from repository)
+
+
+How to rename/move files:
+git mv oldfilename newfilename
+
+git mv filename foldername
+
+
+How to commit directly from working copy to repository ?
+git commit -am "message"
+
+1.this is Only useful when we want to add only one file as it grabs all working files
+2.useful only for editing type not for deleting,etc.
+
+How to access our previous versions of our file from repository? (Undo changes)
+git checkout --filename
+
+(checkout means we are taking files from repository and making them as our working directory)
+
+HOW to unstage files ?
+git reset HEAD filename
+
+Getting older versions from repository:
+our each commit represents our points at time which we can access later ,so we can't delete it.
+So to get other versions without deleting other (1>2>3>2 in this way):
+git checkout commitrefno. --filename
+
+
+Github => it's a website to publish our work publicly , through which anyone can give their views and can also contribute to our project. 
+
+
+
+
+
