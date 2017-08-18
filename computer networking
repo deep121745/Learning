@@ -1,0 +1,68 @@
+Computer Networking : A bunch of computers connected to each other. Computer here means pc,cellphones,printer,etc.
+To connect them we need a way to share or transfer data or information via wires,fibre optics,radiowaves even infrared and microwaves are nowdays used.
+Data includes stuff like docs, pics,videos,etc.
+
+TYPES OF COMPUTER NETWORKS : on the basis of reach /size
+1.  LAN -> local area network(building)
+    means all connected computers are in same building(i.e,small distance) {in colleges or in small business}
+    e.g. with help of LAN all computers in school lab doesn't need their separate printer 
+Usually connected by cables or wireless
+
+2.  MAN -> metropolitan area network(city)
+   bigger than LAN , these network often connect computers across the city
+   e.g, when a student want to access city library 
+   Earlier we use telephone cables but nowdays fibre optics,and wireless tech are used
+
+ 3. WAN -> wide area network(nation or entire world)
+     WAN is made up of multiple MAN
+     criteria is min distance b/w connected computer is >30miles
+    WAN example is of internet, telephone companies,etc
+    They use satellite,fibre optic cables .
+
+PARTS OF A NETWORK:
+1. NODE: any devices(whether it being laptop ,printer,server,router,modem,etc) associated in computer networking is called node .
+2.COMMUNICATION MEDIA :the connection b/w node is called connection media whether it is through cables or wireless.
+
+HOW INTERNET WORKS?
+let a web developer develops a website in his local and want to show this to his friends but the operating system doesn't allow other people to access our computer so in order to access this website we have to use special computers called servers . therefore server means special computers which everyone can access globally.
+Servers have a large memory 
+
+WORKSTATIOINS: they are usually home computers,laptops,etc in which we work 
+
+So the process goes like :
+Whenever we access a particular website then basically it request the server for particular files and in response sends those files to local and the work of browser is to interpretate them into good looking files and images of webpage.
+
+CLIENTS: In above process , local computer is called client (gets the data)
+HOSTS:    """"              , web servers are host  (gives the data)
+
+NETWORK INTERFACE CARDS(NIC): part of computer that allows us to connect to internet, without it we can't connect our computer to internet
+
+
+PROTOCOLS: are the rules for communication
+1. proper response from host 
+2. one person should communicate at a time
+3. only desired response is required
+For successful computer networking computers (local, server) should follow the same protocols
+in networking , protocols are the format in the order of messages
+http:// -> protocol
+www.google.com/ -> server name
+index.abc -> file
+
+TOPOLOGY OR LAYOUT OF COMPUTER NETWORK: how you setup your network
+
+1. BUS topology : It has one cable(like ethernet, etc) and all our computer devices are connected in main chain .
+in this we use terminators at end points to avoid bounce back of signals
+the drawback is that it can break very easily 
+
+2. RING TOPOLOGY: one cable similarly connected in form of  main ring
+ It hits node by node , and it flows until it reaches its source (not destination).
+ No terminators
+
+3.STAR TOPOLOGY : here in the middle there is a network connecting devices like router,etc otherwise total similar to ring
+the drawback is that every node is dependendant on one device
+suitable for home purposes
+
+MESH TOPOLOGY :
+where every single node is connected to every other node 
+It is very expensive as it requires more cable  
+
