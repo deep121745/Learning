@@ -66,3 +66,13 @@ MESH TOPOLOGY :
 where every single node is connected to every other node 
 It is very expensive as it requires more cable  
 
+OSI model (Open System Interconnection):
+This model starts with user level 
+first layer: Software Application Layer(like firefox,chrome,etc)
+Second layer: Presentation layer , the layer in which OS works on .
+Here OS basically converts the text which user understands to the text that computer can understand (like ASCII ,etc)
+Presentation layer also encrypts data
+Third layer: Session layer
+session is basically a conversion b/w computers (in php ,etc)
+This layer is responsible for starting and ending conversion b/w computers 
+for e.g when a computer loses connection to a server then it reestablishes connection also when we wanna disconnect then it helps. 
